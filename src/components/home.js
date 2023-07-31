@@ -20,7 +20,7 @@ alert("Registered successfully");
 
 return (
 <div>
-    <h1>Sign Up Page</h1>
+    <h1>Home</h1>
 
 <input type="text" 
 placeholder="enter email"
@@ -34,7 +34,7 @@ onChange={(event)=> setEmail(event.target.value)}/>
  {""}
  <br></br> <br></br>
 
-<button onClick={register}>Sign Up</button>
+<button onClick={register}>logout</button>
 </div>
 )
     

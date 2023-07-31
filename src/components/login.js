@@ -1,8 +1,10 @@
 import {getAuth, createUserWithEmailAndPassword} from 'firebase/auth';
 import {auth} from '../config/firebase';
 import {useState} from 'react';
+import { useNavigate } from 'react-router-dom';
 
 export const Login = () => {
+ const navigate = useNavigate();
 
 const [email, setEmail] = useState('');
 const [password, setPassword]= useState('');
@@ -20,7 +22,7 @@ alert("Registered successfully");
 
 return (
 <div>
-    <h1>Sign Up Page</h1>
+    <h1>Login Page</h1>
 
 <input type="text" 
 placeholder="enter email"
@@ -34,7 +36,7 @@ onChange={(event)=> setEmail(event.target.value)}/>
  {""}
  <br></br> <br></br>
 
-<button onClick={register}>Sign Up</button>
+<button onClick={register}>Login</button>
 </div>
 )
     
