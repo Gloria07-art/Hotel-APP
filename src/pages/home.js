@@ -18,13 +18,13 @@ return (
 <div>
 <input type="date" 
 placeholder="enter email"
-onChange={(event)=> setEmail(event.target.value)}/> 
+/> 
 {""}
  <br></br> <br></br>
 
 <input type="date"  
  placeholder="enter password"
- onChange={(event)=> setPassword(event.target.value)}/> 
+ /> 
  {""}
  <br></br> <br></br>
  </div>
