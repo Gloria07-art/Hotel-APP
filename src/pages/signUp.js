@@ -1,16 +1,3 @@
-import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
-
-import { auth } from "../config/firebase";
-
-import React, { useState } from "react";
-
-import { useNavigate } from "react-router-dom";
-
-import "./styles/signUp.css"
-
-import Img from "./assets/img.png";
-
-export const SignUp = () => {
   const navigate = useNavigate();
 
   const [email, setEmail] = useState("");
