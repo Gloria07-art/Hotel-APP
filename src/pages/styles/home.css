@@ -1,0 +1,8 @@
+.room-container {
+  width: 1800px;
+  height: 300px;
+  /* flex-shrink: 0; */
+  background-color: #e8e7dd;
+  margin: 0px;
+  display: flex;
+}
